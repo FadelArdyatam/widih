@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
 import { Button } from "./ui/button"
+import Image from "next/image"
 
 // Testimonial data
 const testimonials = [
@@ -101,7 +102,7 @@ export default function TestimonialSection() {
                 className="flex-shrink-0"
               >
                 <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-white shadow-md">
-                  <img
+                  <Image
                     src={currentTestimonial.image || "/placeholder.svg"}
                     alt={currentTestimonial.name}
                     className="w-full h-full object-cover"
