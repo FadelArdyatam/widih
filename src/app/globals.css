@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -113,10 +117,18 @@
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+    * {
+        @apply border-border;
+          font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        font-family: "Nothing You Could Do", cursive;
+
+    }
+}
+
+.font-handwritten {
+    font-family: 'Nothing You Could Do', cursive;
 }
