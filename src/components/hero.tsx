@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function Hero() {
   return (
@@ -163,11 +164,13 @@ export default function Hero() {
           {/* Image Section - Replaced the placeholder */}
           <div className="relative">
             <div className="relative w-full overflow-hidden border-2 shadow-xl aspect-video rounded-xl border-amber-200/50">
-              <img
+              <Image
                 src="/images/senior-citizens.jpg"
                 alt="Lansia bahagia bersama keluarga"
                 className="object-cover w-full h-full rounded-lg"
                 loading="eager"
+                width={1000}
+                height={1000}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-amber-900/20 to-transparent"></div>
             </div>

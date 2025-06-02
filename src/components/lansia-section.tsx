@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function LansiaSection() {
   return (
     <section className="relative w-full py-12 overflow-hidden bg-white md:py-24 lg:py-32">
@@ -39,7 +41,7 @@ export default function LansiaSection() {
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           {/* Left Abstract Image - Hidden on mobile */}
           <div className="hidden md:block md:w-1/4 opacity-30 lg:opacity-100">
-            <img
+            <Image
               src="/images/geometry-left.png"
               width={300}
               height={300}
@@ -65,7 +67,7 @@ export default function LansiaSection() {
 
           {/* Right Abstract Image - Hidden on mobile */}
           <div className="hidden md:block md:w-1/4 opacity-30 lg:opacity-100">
-            <img
+            <Image
               src="/images/geometry.png"
               width={300}
               height={300}

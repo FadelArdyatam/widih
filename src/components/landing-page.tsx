@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Info, FileText, ShieldCheck, MessageSquare, ClipboardCheck, Mail, Phone, MapPin, Clock } from 'lucide-react';
+import Image from "next/image";
 import Link from "next/link";
 
 export default function SidayaPage() {
@@ -118,7 +119,7 @@ export default function SidayaPage() {
             
             <div className="relative">
               <div className="relative overflow-hidden shadow-2xl rounded-xl">
-                <img
+                <Image
                   src="/images/profil-sidaya.jpg" 
                   alt="Profil Sidaya" 
                   width={600} 
