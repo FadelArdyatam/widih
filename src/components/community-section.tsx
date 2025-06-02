@@ -25,7 +25,7 @@ export default function CommunitySection() {
               Dapatkan informasi terbaru dan manfaatkan sumber daya kami untuk menjadi lansia berdaya.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button asChild className="bg-[#FFB200] hover:bg-[#E6A100] text-black font-medium px-6 py-6">
+              <Button asChild className="bg-[#af8012] hover:bg-[#b99a53] text-black font-medium px-6 py-6">
                 <Link href="/register">
                   <Zap className="mr-2 h-5 w-5" />
                   Daftar Sekarang

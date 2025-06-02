@@ -106,6 +106,8 @@ export default function TestimonialSection() {
                     src={currentTestimonial.image || "/placeholder.svg"}
                     alt={currentTestimonial.name}
                     className="w-full h-full object-cover"
+                    width={100}
+                    height={100}
                   />
                 </div>
               </motion.div>
