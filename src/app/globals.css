@@ -125,11 +125,11 @@
 
     body {
         @apply bg-background text-foreground;
-        font-family: "Nothing You Could Do";
+        font-family: "Nothing You Could Do", cursive;
 
     }
 }
 
 .font-handwritten {
-    font-family: 'Nothing You Could Do';
+    font-family: 'Nothing You Could Do', cursive;
 }
